@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  font-family: monospace;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  border-radius: 5px;
+  margin-left: 1rem;
+  margin-right: -14rem;
+  position: relative;
+  float: inline-start;
+}
+
+.img-header {
+  border-radius: 5px;
+  /* text-size-adjust: 100px; */
+  border-color: black;
+  align-self: start;
+  /* margin-right: 100%; */
+  display: inline;
+}
+
+.card {
+  position: relative;
+  height: fit-content;
+  margin-top: 15rem;
+  margin-right: 80rem;
+  background-color: darkgray;
+}
+
+.h1 {
+  position: relative;
+  display:flex;
+  float: inline-start;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+.App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#tsparticles {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    size: 25px;
+}
